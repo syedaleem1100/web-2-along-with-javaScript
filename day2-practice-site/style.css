@@ -1,0 +1,95 @@
+.ist{
+    color:wheat;
+    margin-left: 80px;
+    margin-top: -30px;
+    
+}
+
+
+
+.reg{
+    background-color: rgba(12, 8, 8, 0.8);
+    width: 300px;
+    margin-top: 100px;
+    margin-left:500px;
+    padding: 90px 10px;
+    border-radius: 10px;
+   
+}
+.view{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 15px;
+    max-width: 400px;
+     align-items: center;
+    margin-top: 40px;
+}
+.are{
+     border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding: 10px 5x;
+    outline: none;
+    text-align: center;
+    width: 200px;
+    color: white;
+    transition: bottom-color 0.1s ease-in;
+}
+
+.are:focus{
+    border-bottom-color: red;
+}
+.is{
+     border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding: 10px 5x;
+    outline: none;
+    text-align: center;
+    width: 200px;
+    color: white;
+    appearance: none;
+    transition: bottom-color 0.1s ease-in;
+}
+.is:focus{
+    border-bottom-color: red;
+}
+select option{
+    background-color: black;
+}
+.it{
+   
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+.it:hover{
+    background-color: red;
+
+}
+@media screen and (max-width:477px){
+    .reg{
+    background-color: rgba(12, 8, 8, 0.8);
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 90px 10px;
+    border-radius: 10px;
+}
+.view{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 15px;
+    max-width: 300px;
+     align-items: center;
+    margin-top: 40px;
+}
+
+
+}
