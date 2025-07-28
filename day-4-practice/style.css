@@ -1,0 +1,24 @@
+#counter{
+    display: block;
+    text-align: center;
+    font-size: 110px;
+    font-family: helvetica;
+}
+#somethinglike{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(116, 116, 177);
+    color:white;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: blueviolet;
+}
+#how{
+    margin-top: 200px;
+}
