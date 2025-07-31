@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    
+}
+.buttons{
+    padding: 10px 25px;
+    font-size: 50px;
+    font-family: verdana;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.labels{
+    font-size: 50px;
+    display: block;
+
+}
